@@ -84,12 +84,13 @@ To improve the design, I made the following adjustments in `style.css` and `inde
 
 After applying these changes, the website appears more refined, as shown below:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c564dab7-d7a4-4956-ad2a-692fff5a8b59">
+  <img src="https://github.com/user-attachments/assets/3445d3d4-4fe2-455e-8876-de8d8aa6dfc7">
 </p>
 
 Additionally, I ensured the layout adapts better to different screen sizes:
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/db1759b3-7ed1-4bde-babc-3d37ef8c0ac0">
+    <img src="ttps://github.com/user-attachments/assets/2ec1befb-2d58-402b-9d26-f339c55938a8">
+
 
 
 </p>
