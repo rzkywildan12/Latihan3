@@ -84,12 +84,13 @@ To improve the design, I made the following adjustments in `style.css` and `inde
 
 After applying these changes, the website appears more refined, as shown below:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e61831e5-0f39-48e6-a146-b15f7d78d5fc" alt="Setelah Penyesuaian CSS">
+  <img src="https://github.com/user-attachments/assets/c564dab7-d7a4-4956-ad2a-692fff5a8b59">
 </p>
 
 Additionally, I ensured the layout adapts better to different screen sizes:
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/9c9be7d6-5656-46a9-8f75-4ff70b03971b" alt="Setelah penambahan script CSS agar lebih responsif">
+    <img src="https://github.com/user-attachments/assets/6211f0b2-52d6-410c-a31b-9d87815009b9">
+
 </p>
 
 ### Adding Interactivity with JavaScript
