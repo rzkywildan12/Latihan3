@@ -8,7 +8,8 @@ Here are some necessary preparations:
 1. Website files, including `index.html`, `style.css`, and a collection of supporting images, which can be found in [this repository](https://www.figma.com/design/CAawvDkcG4AIoMWvHwrQvo/workoutaja?node-id=0-1&t=VVSwhmOTNgDBqpNP-1).
 2. The final website appearance should refer to the design available at [this link](https://www.figma.com/design/CAawvDkcG4AIoMWvHwrQvo/workoutaja?node-id=0-1&t=VVSwhmOTNgDBqpNP-1) . Here is a preview of the design:
     <p align="center">
-    <img src="https://www.figma.com/design/CAawvDkcG4AIoMWvHwrQvo/workoutaja?node-id=0-1&p=f&t=XX4eb2QdbmzqXYUW-0">
+    <img src="https://github.com/user-attachments/assets/9e854b2e-d49b-495f-98cc-05e2bd05c42f">
+">
     </p>
 
 3. A text editor such as VSCode, Sublime Text, or others.
