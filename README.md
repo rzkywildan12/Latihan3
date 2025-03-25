@@ -89,10 +89,7 @@ After applying these changes, the website appears more refined, as shown below:
 
 Additionally, I ensured the layout adapts better to different screen sizes:
 <p align="center">
-    <img src="ttps://github.com/user-attachments/assets/2ec1befb-2d58-402b-9d26-f339c55938a8">
-
-
-
+    <img src="https://github.com/user-attachments/assets/2ec1befb-2d58-402b-9d26-f339c55938a8">
 </p>
 
 ### Adding Interactivity with JavaScript
