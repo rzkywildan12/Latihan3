@@ -5,7 +5,7 @@ In this exercise, I will customize and enhance the appearance of a website that 
 
 ## Preparation
 Here are some necessary preparations:
-1. Website files, including `index.html`, `style.css`, and a collection of supporting images, which can be found in [this repository](https://github.com/cakrawala-university/web-client-development).
+1. Website files, including `index.html`, `style.css`, and a collection of supporting images, which can be found in [this repository](https://www.figma.com/design/CAawvDkcG4AIoMWvHwrQvo/workoutaja?node-id=0-1&p=f&t=2gkBhqP64dLmkmVw-0).
 2. The final website appearance should refer to the design available at [this link](https://www.figma.com/design/CAawvDkcG4AIoMWvHwrQvo/workoutaja?node-id=0-1&t=CfOIRcJJPeT5PykW-1) . Here is a preview of the design:
     <p align="center">
     <img src="https://github.com/user-attachments/assets/d8a21e75-0e4c-43a8-a67e-1d67c0692d09" alt="Referensi Tampilan Akhir Website">
