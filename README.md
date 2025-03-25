@@ -175,7 +175,11 @@ To enhance user experience, I added a `script.js` file containing various intera
    - The `.loaded` class is added to the body to activate additional animations if needed.
 
 
+https://github.com/user-attachments/assets/dc49bcdb-9cfd-4118-9491-16e27274d4c7
 
-https://github.com/user-attachments/assets/ae539a77-0dd8-4e7f-9445-7162e9cc0b1f
+
+
+
+
 
 
