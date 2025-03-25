@@ -65,7 +65,8 @@ mv * ../website_folder_name/
 ### Customizing the Website Appearance with CSS
 When accessed for the first time, the website does not yet use a CSS file, making its appearance very basic, as shown below:
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/1f0dba74-0792-4a5f-bb2a-2d97a6af5209" alt="Akses Pertama Website">
+    <img src="https://github.com/user-attachments/assets/14f56487-c001-4bf2-a78a-df4fde32890b">
+
 </p>
 
 To improve the design, I made the following adjustments in `style.css` and `index.html`:
