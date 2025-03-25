@@ -35,9 +35,19 @@ Proyek ini mencakup file
 
 
  </p>
+
 3. **Intraktivitas dengan JavaScript :**
-Menambahkan scrip Java Script untuk memberikan fungsionalitas tambahan, seperti resposivitas atau efek dinamis pada elemen-elemen tertentu
+<br>Menambahkan skrip Java Script untuk memberikan fungsionalitas tambahan, seperti resposivitas atau efek dinamis pada elemen tertentu<br />
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/22b7a61f-09ca-4e41-a8bd-f1d0546afb5f">
+
+
+
+ </p>
 
  
+
+
+
 
    
