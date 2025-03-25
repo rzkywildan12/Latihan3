@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Apply fade-in effect when the page is fully loaded */
+  body.loaded {
+    opacity: 1;
+  }
+  
+  /* Set page container with maximum width and centered alignment */
+  .page {
+    max-width: 1680px;
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 64px;
+  }
+  
+  nav {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  /* Check list styling */
+  nav ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+  }
+  
+  /* Check list link style */
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1F1534;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* Underline effect on hover */
+  nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #69B99D;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Bold text on hover */
+  nav ul li a:hover {
+    color: #1F1534;
+    opacity: 1;
+  }
+  
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  
+  /* Active menu effect */
+  nav ul li a.active {
+    opacity: 1;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 64px;
+    margin-bottom: 80px;
+    transform: translateY(30px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  
+  main.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Text section inside main content */
+  .text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .text h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  /* Highlight specific words inside h1 */
+  .text h1 span { 
+    color: #89C5CC;
+    font-weight: 700;
+  }
+  
+  /* Paragraph text styling */
+  .text p {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px;
+    color: #7D7987;
+    margin: 16px 0;
+    line-height: 160%;
+    font-weight: 400;
+  }
+  
+  .text p strong {
+    font-weight: 900;
+  }
+  
+  /* Check font styling and make sure the button is rounded */
+  .text button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    margin-top: 50px;
+    background-color: #69B99D;
+    color: #F9F9F9;
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+  }
+  
+  /* Handle when user hover on the button */
+  .text button:hover {
+    background-color: #4a8a77;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hero-image {
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .hero-image.visible {
+    opacity: 1;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+    color: #555;
+  }
+  
+  footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  footer a:hover {
+    color: #007bff;
+  }
+  
+  /* Floating decorative element */
+  #balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .page {
+      width: 95%;
+    }
+    main {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-image {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    .text button {
+      margin: 30px auto 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text h1 {
+      font-size: 2rem;
+    }
+    .text p {
+      font-size: 14px;
+    }
+    .text button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-image {
+      max-width: 100%;
+    }
+    .text h1 {
+      font-size: 1.8rem;
+    }
+    .text p {
+      font-size: 14px;
+    }
+    .text button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
