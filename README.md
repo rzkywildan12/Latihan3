@@ -89,7 +89,8 @@ After applying these changes, the website appears more refined, as shown below:
 
 Additionally, I ensured the layout adapts better to different screen sizes:
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/6211f0b2-52d6-410c-a31b-9d87815009b9">
+    <img src="https://github.com/user-attachments/assets/db1759b3-7ed1-4bde-babc-3d37ef8c0ac0">
+
 
 </p>
 
